@@ -1,0 +1,41 @@
+{
+  "name": "studentportal",
+  "version": "1.0.0",
+  "description": "The University Portal Mobile App is designed to provide university students with a convenient way to access and interact with the University Portal system. The app focuses on the Student Module, allowing students to manage their profiles, receive departmental announcements, showcase their work, share placement experiences, and visualize non-academic achievements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haleshot/StudentPortalWP.git"
+  },
+  "keywords": [
+    "Web",
+    "Programming",
+    "project",
+    "HTML",
+    "CSS",
+    "JS",
+    "Node",
+    "Express",
+    "Bootstrap",
+    "UI",
+    "CRUD",
+    "college"
+  ],
+  "author": "Srihari Thyagarajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haleshot/StudentPortalWP/issues"
+  },
+  "homepage": "https://github.com/Haleshot/StudentPortalWP#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
