@@ -1,93 +1,65 @@
-## 🤝***First time contributing? Check out the tips mentioned*** 👍
+# Contributing to the University Portal Website
 
-![GitHub custom open for collaboration](https://img.shields.io/badge/Open%20For-Collaboration-brightgreen?style=for-the-badge)
+Thank you for your interest in contributing to the University Portal Website project. Your contributions are valuable in making this project better. Please take a moment to review this document to understand how you can contribute and the guidelines to follow.
 
-Refer to the following articles on the basics of Git and GitHub and can also contact the Project Mentors, in case you are stuck:
+## How to Contribute
 
+1. Fork the repository to your own GitHub account by clicking the "Fork" button in the top-right corner of the repository page.
 
-- [Getting started with Git and GitHub](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github)
-- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
-- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+2. Clone your forked repository to your local machine:
+   ```
+   git clone [your_fork_url]
+   ```
 
-***If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).***
+3. Create a new branch for your work:
+   ```
+   git checkout -b feature/your-feature-name
+   ```
 
-## 💥 How to Contribute
+4. Make your changes, improvements, or fixes.
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+5. Commit your changes with clear and concise commit messages:
+   ```
+   git commit -m "Your commit message"
+   ```
 
-- Take a look at the Existing [Issues](https://github.com/Haleshot/Image_Processing/issues) or create your own Issues!
-- Wait for the Issue to be assigned to you after which you can start working on it.
-- Fork the Repo and create a Branch for any Issue that you are working upon.
-- Read the [Code of Conduct](https://github.com/Haleshot/Image_Processing/blob/main/CODE_OF_CONDUCT.md)
-- Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
-- Add Screenshots to help us know what this Script is all about.
+6. Push your changes to your fork on GitHub:
+   ```
+   git push origin feature/your-feature-name
+   ```
 
-## ⭐Making a Pull Request:
+7. Create a pull request (PR) to the main repository. Be sure to include a clear description of your changes.
 
-**1.** Fork [this](https://github.com/Haleshot/Image_Processing) repository.
+8. Your PR will be reviewed, and any necessary adjustments or discussions will take place.
 
+9. Once your PR is approved, it will be merged into the main branch.
 
-**2.** Clone the forked repository. Open terminal and type:
+## Code Style and Guidelines
 
-```bash
-git clone https://github.com/<your-github-username>/Image_Processing.git
-```
+Please follow these guidelines to ensure consistency and maintainability:
 
-**3.** Navigate to the project directory.
+- Use clear and descriptive variable and function names.
+- Follow the existing code style, including indentation and formatting.
+- Write comments for complex or non-obvious sections of code.
+- Write clear and concise commit messages.
 
-```bash
-cd Image_Processing
-```
+## Reporting Bugs
 
-**4.** Make a feature branch
-```bash
-git checkout -b <branch-name>
-```
-**5.** Make changes in source code/project.
+If you encounter a bug in the website, please help us by reporting it. To report a bug, use the GitHub Issues tab and provide the following information:
 
-**6.** Stage your changes and commit
+- A clear and descriptive title.
+- Detailed steps to reproduce the bug.
+- Expected behavior and actual behavior.
+- Any error messages or logs, if applicable.
 
-```bash
-#Add changes to Index
-git add .
-#Commit to the local repo
-git commit -m "<your_commit_message>"
-```
+## Feature Requests
 
-**7.** Push your local commits to the remote repo.
+We welcome feature requests. If you have an idea for a new feature or improvement, please create an issue in the GitHub Issues tab. Be sure to describe the feature or improvement clearly and provide any relevant context.
 
-```bash
-git push origin <brach-name>
-```
+## Code of Conduct
 
-**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
+Please review and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming and inclusive community.
 
-**9.** **Congratulations!** Sit and relax, you've made your contribution to [Image_Processing](https://github.com/Haleshot/Image_Processing) project.
+Thank you for contributing to the University Portal Website project!
 
-
-***:trophy: After this, project leaders and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.***
-
-## Style Guides for Git Commit Messages:memo:
-
-#### Here's a list of some good to have points, that can add more value to your contribution logs.
-
-- Use the present tense (example: "Add feature" and not "Added feature")
-- Use the imperative mood (example: "Move item to...", instead of "Moves item to...")
-- Limit the first line (also called subject line) to 50 characters or less
-- Capitalize the subject line
-- Separate subject from body with a blank line
-- Do not end the subject line with a period
-- Wrap the body at 72 characters
-- Use the body to explain what, why, vs, and how
-- Reference issues and pull requests liberally after the first line
-
-For more detailed reference to the above points, refer here: https://chris.beams.io/posts/git-commit.
-
-## 💥 Issues:
-For major changes, you are welcomed to open an issue  about what you would like to contribute. Enhancements will be appreciated.
-
-#### All the Best!🥇
-
-
+Happy coding!
