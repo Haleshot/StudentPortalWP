@@ -11,7 +11,6 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-
 ## Project Overview
 The University Portal Website is a web application designed to provide university students with a platform to showcase their non-academic achievements, share experiences, and engage in non-academic activities. The project focuses on the Student Module, allowing students to manage their profiles, receive departmental announcements, showcase their work, share placement experiences, and visualize non-academic achievements.
 
