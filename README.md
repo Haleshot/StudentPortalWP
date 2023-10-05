@@ -49,13 +49,13 @@ university-portal-website/
 - Front-end: HTML, CSS, JavaScript
 - Styling: [Bootstrap / Tailwind]
 - Back-end: Node.js with Express
-- Database: MySQL
+- Database: Firebase(Node.js + express.js)
 
 ## Getting Started
 
 ### Prerequisites
 - Node.js and npm installed
-- MySQL database server
+- Firebase database server
 
 ### Installation
 1. Clone the repository:
