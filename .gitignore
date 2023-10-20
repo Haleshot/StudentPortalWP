@@ -117,9 +117,24 @@ Thumbs.db
 !.gitignore
 !.nvmrc
 !.phpcs.xml.dist
+
 server/firebase.js
 server/package-lock.json
 server/package.json
 server/studentportal2-2c9d5-firebase-adminsdk-n1vf8-97eba710e7.json
 server/routes/firebaseRoutes.js
 server/routes/loginRoute.js
+
+studentportal2-2c9d5-firebase-adminsdk-n1vf8-97eba710e7.json
+app.js
+app.js
+public/js/login.js
+app.js
+package-lock.json
+public/js/login.js
+package.json
+public/js/login.js
+server/firebase.js
+server/routes/loginRoute.js
+server/routes/firebaseRoutes.js
+>>>>>>> 58b640ecb620f3089487d1fa54c633afadb0f1d3
