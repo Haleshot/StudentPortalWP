@@ -26,3 +26,29 @@ document.getElementById("register").addEventListener("click", function(e) {
     }
   });
 });
+
+// public/js/login.js
+// document.getElementById("register").addEventListener("click", function(e) {
+//   e.preventDefault();
+//   const sapid = document.getElementById("sapid").value;
+//   const password = document.getElementById("password").value;
+  
+//   fetch('/api/login', {
+//       method: 'POST',
+//       headers: {
+//           'Content-Type': 'application/json'
+//       },
+//       body: JSON.stringify({ sapid, password })
+//   })
+//   .then(response => {
+//       if (response.ok) {
+//           alert("Login Successful");
+//           window.location.href = "dashboard.html";
+//       } else {
+//           alert("Error: Login failed");
+//       }
+//   })
+//   .catch(error => {
+//       console.error("Error:", error);
+//   });
+// });
