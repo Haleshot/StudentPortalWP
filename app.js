@@ -13,6 +13,8 @@ app.use(express.static('public'));
 // Set View's
 app.set('views', './views');
 app.set('view engine', 'ejs');
+require = require('esm')(module);
+
 
 // Navigation
 app.get('', (req, res) => {
