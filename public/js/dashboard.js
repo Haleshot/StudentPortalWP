@@ -18,6 +18,14 @@ darkMode.addEventListener('click', () => {
     darkMode.querySelector('span:nth-child(2)').classList.toggle('active');
 })
 
+// Passing Login info from login.js to dashboard.js
+
+// const auth = getAuth();
+// auth.onAuthStateChanged(user => {
+//   const displayName = document.getElementById('displayName');
+//   displayName.innerText = "Currently logged in as: " + user.email;
+// });
+
 
 // // Logout functionality:
 // const logoutButton = document.getElementById('logout-button');
