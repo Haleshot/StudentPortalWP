@@ -82,7 +82,7 @@
                     </span>
                     <h3>New Login</h3>
                 </a>
-                <a href="#">
+                <a href="#" id="logout-button">
                     <span class="material-icons-sharp">
                         logout
                     </span>
@@ -153,22 +153,22 @@
                 <h2>New Users</h2>
                 <div class="user-list">
                     <div class="user">
-                        <img src="/public/img/main.pngprofile-2.jpg">
+                        <img src="/public/img/main.png">
                         <h2>Jack</h2>
                         <p>54 Min Ago</p>
                     </div>
                     <div class="user">
-                        <img src="/public/img/main.pngprofile-3.jpg">
+                        <img src="/public/img/main.png">
                         <h2>Amir</h2>
                         <p>3 Hours Ago</p>
                     </div>
                     <div class="user">
-                        <img src="/public/img/main.pngprofile-4.jpg">
+                        <img src="/public/img/main.png">
                         <h2>Ember</h2>
                         <p>6 Hours Ago</p>
                     </div>
                     <div class="user">
-                        <img src="/public/img/main.pngplus.png">
+                        <img src="/public/img/main.png">
                         <h2>More</h2>
                         <p>New User</p>
                     </div>
@@ -178,7 +178,7 @@
 
             <!-- Recent Orders Table -->
             <div class="recent-orders">
-                <h2>Recent Orders</h2>
+                <h2>Recent Workshops</h2>
                 <table>
                     <thead>
                         <tr>
@@ -230,7 +230,7 @@
 
             <div class="user-profile">
                 <div class="logo">
-                    <img src="/public/img/main.pnglogo.png">
+                    <img src="/public/img/main.png">
                     <h2>NMIMS</h2>
                     <p>Fullstack Web Developer</p>
                 </div>
@@ -298,12 +298,17 @@
 
     </div>
 
-    <script src="/views/orders.js"></script>
     <!-- Include Firebase -->
     <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js"></script>
-    <!-- Other script includes -->
-    <script src="/public/js/dashboard.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js"></script> <!-- Include Firebase Authentication -->
+
+    <!-- Your other script includes -->
+    
+    <script src="/public/js/firebase-config.js" type="module"></script>
+    <script src="/public/js/dashboard.js" type="module"></script>
+    <script src="/public/js/logout.js" type="module"></script>
+    
 
 </body>
 
