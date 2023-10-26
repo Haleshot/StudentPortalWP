@@ -33,44 +33,44 @@
                     </span>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="#">
+                <a href="#users">
                     <span class="material-icons-sharp">
                         person_outline
                     </span>
                     <h3>Users</h3>
                 </a>
-                <a href="#">
+                <a href="#courses">
                     <span class="material-icons-sharp">
                         receipt_long
                     </span>
-                    <h3>History</h3>
+                    <h3>Courses</h3>
                 </a>
-                <a href="#">
+                <a href="#analytics">
                     <span class="material-icons-sharp">
-                        insights
+                        leaderboard
                     </span>
-                    <h3>Analytics</h3>
+                    <h3>Leaderboards</h3>
                 </a>
-                <a href="#">
+                <a href="#events">
                     <span class="material-icons-sharp">
                         mail_outline
                     </span>
-                    <h3>Updates</h3>
+                    <h3>Events</h3>
                     <span class="message-count">27</span>
                 </a>
-                <a href="#">
+                <a href="#reminders">
                     <span class="material-icons-sharp">
                         inventory
                     </span>
                     <h3>Reminders</h3>
                 </a>
-                <!-- <a href="#">
+                <a href="#">
                     <span class="material-icons-sharp">
                         report_gmailerrorred
                     </span>
-                    <h3>Reports</h3>
-                </a> -->
-                <a href="#">
+                    <h3>Support</h3>
+                </a>
+                <a href="#settings" id="settings">
                     <span class="material-icons-sharp">
                         settings
                     </span>
@@ -82,7 +82,7 @@
                     </span>
                     <h3>New Login</h3>
                 </a> -->
-                <a href="#" id="logout-button">
+                <a href="#logout" id="logout-button">
                     <span class="material-icons-sharp">
                         logout
                     </span>
@@ -100,15 +100,15 @@
                 <div class="sales">
                     <div class="status">
                         <div class="info">
-                            <h3>Total Sales</h3>
-                            <h1>$65,024</h1>
+                            <h3>Profile Completion</h3>
+                            <h1>8/10</h1>
                         </div>
                         <div class="progresss">
                             <svg>
                                 <circle cx="38" cy="38" r="36"></circle>
                             </svg>
                             <div class="percentage">
-                                <p>+81%</p>
+                                <p>+80%</p>
                             </div>
                         </div>
                     </div>
@@ -116,8 +116,8 @@
                 <div class="visits">
                     <div class="status">
                         <div class="info">
-                            <h3>Site Visit</h3>
-                            <h1>24,981</h1>
+                            <h3>Chat score</h3>
+                            <h1>241</h1>
                         </div>
                         <div class="progresss">
                             <svg>
@@ -132,8 +132,8 @@
                 <div class="searches">
                     <div class="status">
                         <div class="info">
-                            <h3>Searches</h3>
-                            <h1>14,147</h1>
+                            <h3>User impressions</h3>
+                            <h1>1423</h1>
                         </div>
                         <div class="progresss">
                             <svg>
@@ -154,17 +154,17 @@
                 <div class="user-list">
                     <div class="user">
                         <img src="/public/img/main.png">
-                        <h2>Jack</h2>
+                        <h2>Rohan</h2>
                         <p>54 Min Ago</p>
                     </div>
                     <div class="user">
                         <img src="/public/img/main.png">
-                        <h2>Amir</h2>
+                        <h2>Sakshi</h2>
                         <p>3 Hours Ago</p>
                     </div>
                     <div class="user">
                         <img src="/public/img/main.png">
-                        <h2>Ember</h2>
+                        <h2>Rahul</h2>
                         <p>6 Hours Ago</p>
                     </div>
                     <div class="user">
@@ -188,6 +188,34 @@
                             <th>Status</th>
                             <th></th>
                         </tr>
+                        <tr>
+                            <td>LLM Workshop</td>
+                            <td>43256457</td>
+                            <td>NEFT</td>
+                            <td>Completed</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Langchain Workshop</td>
+                            <td>65756873</td>
+                            <td>RTGS</td>
+                            <td>Pending</td>
+                            <td></td>
+                        </tr><tr>
+                            <td>Dev Ops Workshop</td>
+                            <td>47526656</td>
+                            <td>UPI</td>
+                            <td>Completed</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Git and GitHub</td>
+                            <td>24536274</td>
+                            <td>NEFT</td>
+                            <td>In Progress</td>
+                            <td></td>
+                        </tr>
+                        
                     </thead>
                     <tbody></tbody>
                 </table>
@@ -215,9 +243,9 @@
                     </span>
                 </div>
 
-                <div class="profile">
+                <div class="profile" id="profile-name">
                     <div class="info">
-                        <p>Hey, <b>Reza</b></p>
+                        <p>Hey, <b></b></p>
                         <small class="text-muted">Student</small>
                     </div>
                     <div class="profile-photo">
@@ -228,13 +256,13 @@
             </div>
             <!-- End of Nav -->
 
-            <div class="user-profile">
+            <!-- <div class="user-profile">
                 <div class="logo">
                     <img src="/public/img/main.png">
                     <h2>NMIMS</h2>
                     <p>Fullstack Web Developer</p>
                 </div>
-            </div>
+            </div> -->
 
             <div class="reminders">
                 <div class="header">
@@ -271,7 +299,7 @@
                     </div>
                     <div class="content">
                         <div class="info">
-                            <h3>Workshop</h3>
+                            <h3>Assignment Submission</h3>
                             <small class="text_muted">
                                 08:00 AM - 12:00 PM
                             </small>
